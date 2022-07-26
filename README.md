@@ -12,3 +12,7 @@ Tensorboard integration supports many experiment metrics. These are:
 The next phase of this project will be to mitigate mode collapse. The GAN architecture is conditional, which means it is highly likely to collapse into a single mode for every class. To mitigate this, class embeddings will be introduced to the generator model as styles similar to StyleGAN model. This implementation will be highly inspired from the recent research:
 
 [**COLLAPSE BY CONDITIONING: TRAINING CLASS - CONDITIONAL GANS WITH LIMITED DATA**](https://arxiv.org/abs/2201.06578).
+
+<img width="900" alt="Capture" src="https://user-images.githubusercontent.com/49740123/180964846-201551b2-2b69-4eb1-9e41-1b43facef56d.PNG">
+The figure above is taken from the Collapse by Conditioning research paper. The model will be fairly close to the architecture of paper. 
+
